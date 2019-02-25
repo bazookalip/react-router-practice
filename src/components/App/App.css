@@ -56,3 +56,7 @@ list-style-type: none;
   color: black;
 }
 
+h1 {
+  text-align: center;
+  color: #282c34
+}

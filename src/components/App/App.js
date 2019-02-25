@@ -11,15 +11,17 @@ class App extends Component {
     return (
      
         <Router>
+          <div>
           <div className="topnav">
             <ul className="ul">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/About">About</Link></li>
             </ul>
+          </div>
             <Route exact path="/" component={Home} />
             <Route path="/About" component={About} />
-     
-          </div>
+        </div>
+         
         </Router>
     
     );
